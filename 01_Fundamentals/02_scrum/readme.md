@@ -114,7 +114,9 @@ De acceptatiecriteria is een verzameling vereisten voor een bepaalde User Story.
 Zorg dat je een Jira account hebt aangemaakt. Doe daarnaast onderzoek zodat je de volgende 2 vragen kan beantwoorden:
 
 1. Welke vragen moet iedereen tijdens de Daily Stand Up aan zichzelf stellen?
+    Wat heb ik gisteren gedaan. Wat ga ik vandaag doen, zijn er obstakels.
 2. Wat zit er in de Scrum Retrospective?
+    De retrospective evalueert het scrumteam de samenwerking, los van de inhoud, het team formuleert enkele verbeterpunten voor de volgende sprint.
 
 Je kan ook overwegen om een Scrum certificaat te halen via Certiprof: 
 
