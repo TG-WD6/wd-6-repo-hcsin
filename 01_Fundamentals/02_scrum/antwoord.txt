@@ -1,0 +1,10 @@
+1. Welke vragen moet iedereen tijdens de Daily Stand Up aan zichzelf stellen?
+    * Wat heb ik gisteren gedaan. Wat ga ik vandaag doen, zijn er obstakels.
+2. Wat zit er in de Scrum Retrospective?
+    * De retrospective evalueert het scrumteam de samenwerking, los van de inhoud, het team formuleert enkele verbeterpunten voor de volgende sprint.
+ het resultaat van de retrospektive is een plan om verbeteringen door te voeren daarnaast kan het team in besluiten om de definition of done aan te passen
+ 
+ 1. het team evolueert de afgelopen sprint op het gebied van mensen relaties proces en gebruikte hulpmiddelen alle input wordt verzameld
+ 2. het team structueerrt de input, in dingen die goed gingen en dingen die beter kunnen
+ 3. afsluiten bedankt het team van plan om diverse verbeterpunten te implementeren, het is aan te bevelen om te focussen op een paar grote verbeterpunten ipv een hele boel kleinere
+ 
