@@ -1,0 +1,64 @@
+Opdracht 1
+Wat zijn de eigenschappen van block boxes en inline boxes?
+    Inline box zitten in de regel tekst en is zo hoog en breed als de inhoud van de tekst. 
+    Voorbeelden van inline elementen zijn: <b>, <em>, <span>, <img>, <strong>. 
+    Block elementen daarentegen beginnen altijd op een nieuwe regel. 
+    Voorbeelden van block-elementen zijn: <div>, <h1>, <p>, <table>, <ul>. Standaard nemen ze de gehele breedte van hun parent (bijvoorbeeld de <body>) in beslag. 
+    Je kunt in tegenstelling tot de inline elementen de breedte en hoogte van een block-element wel instellen met height en width.
+
+Opdracht 2
+Maak wat hieronder staat met paragraph en span tags.
+    zie opdracht2.html
+
+Opdracht 3
+Wat gebeurt er als je een width en een height toevoegt aan de span tag ( <span> ) van vorige opdracht?
+    Er gebeurt niks.
+
+Opdracht 4
+Leg uit wat de volgende termen betekenen: content, padding, margin en border.
+    Content = inhoud. bv tekst of image.
+    padding = rondom de ruimte tussen de box, vanaf de kader(binnenste) lijn en de content.
+    margin = rondom de ruimte tussen de box, vanuit de kader(buitenste) lijn en de boxes er omheen.
+    border = de kader van de box.
+
+
+Opdracht 5
+Als je ruimte wilt maken tussen de border en content, welke css property gebruik je dan? Maak een voorbeeld in je antwoord.
+    div{
+        padding: 10px;
+    }
+
+
+Opdracht 6
+Als je ruimte wilt maken tussen de border en buiten de box, welke css property gebruik je dan? Maak een voorbeeld in je antwoord.
+    div{
+        margin: 1em;
+    }
+
+
+Opdracht 7
+Maak nu een blok met width: 100px, height: 100px, margin: 5px, padding 5px en border-width: 5px. Zie hieronder:
+    zie opdracht7.html
+
+Hoe breed is de box?
+100px (width)
++ 10px (left + right padding)
++ 10px (left + right border)
++ 10px (left + right margin)
+= 130px
+
+Hoe hoog is de box?
+100px (height)
++ 10px (top + bottom padding)
++ 10px (top + bottom border)
++ 10px (top + bottom margin)
+= 130px
+
+Wat merk je op met width en height?
+de totale grote is meer dan wat je heb aangegeven (hoogte en breedte 100px)
+
+Opdracht 8
+Welke CSS property kun je gebruiken om ervoor te zorgen dat de waarde van width en height de totale breedte en hoogte is van het blok van de voorgaande opdracht?
+.alternate {
+  box-sizing: border-box;
+}
