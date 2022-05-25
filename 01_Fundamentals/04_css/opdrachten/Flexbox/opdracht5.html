@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox opdracht 5</title>
+    <style>
+      .container {
+        width: 200px;
+        height: 300px;
+        background-color: antiquewhite;
+        display: flex;
+        margin: 1em;
+      }
+
+      .container div {
+        width: 70px;
+        height: 70px;
+        margin: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Flexbox opdracht 5</h1>
+    <div style="display: flex">
+      <div class="container" style="justify-content: start; align-items: start">
+        <div style="background-color: red"></div>
+      </div>
+      <div
+        class="container"
+        style="justify-content: center; align-items: center"
+      >
+        <div style="background-color: green"></div>
+      </div>
+      <div class="container" style="justify-content: end; align-items: end">
+        <div style="background-color: blue"></div>
+      </div>
+    </div>
+  </body>
+</html>
