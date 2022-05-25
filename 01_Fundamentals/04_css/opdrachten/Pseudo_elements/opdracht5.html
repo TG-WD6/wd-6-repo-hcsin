@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo elements opdracht5</title>
+
+    <style>
+      .shape {
+        height: 200px;
+        width: 200px;
+        margin: 80px;
+        background-color: red;
+        transform: rotate(25deg);
+        transform-origin: center;
+      }
+      .shape::before {
+        content: "";
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        background-color: blue;
+        transform: rotate(30deg);
+        transform-origin: center;
+      }
+      .shape::after {
+        content: "";
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        background-color: yellow;
+        transform: rotate(60deg);
+        transform-origin: center;
+      }
+      .container {
+        background-color: aqua;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <div class="shape"></div>
+    </main>
+  </body>
+</html>
