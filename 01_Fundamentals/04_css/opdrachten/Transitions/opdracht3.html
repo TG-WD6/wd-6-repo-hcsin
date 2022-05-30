@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box_size {
+        height: 100px;
+        width: 100px;
+        background-color: antiquewhite;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .div1{
+        transition-timing-function: linear;
+        animation-name: box_L;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes box_L {
+        0%   { left:0px; border-radius: 0%;}
+        50%  {left:400px; border-radius: 50%;}
+        100%   {left:0px; border-radius: 0%;}
+      }
+      .div2{
+        transition-timing-function: ease-in;
+        animation-name: box_E;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes box_E {
+        0%   { left:0px; border-radius: 0%;}
+        50%  {left:400px; border-radius: 20%;}
+        100%   {left:0px; border-radius: 0%;}
+      }
+
+</style>
+  </head>
+  <body>
+    <div class="box_size div1">linear</div>
+    <br />
+    <div class="box_size div2">ease</div>
+    <br />
+    <div class="box_size div3">ease-in</div>
+    <br />
+    <div class="box_size div4">ease-out</div>
+    <br />
+    <div class="box_size div5">ease-in-out</div>
+    <br />
+
+    #div2 {transition-timing-function: ease;}
+    #div3 {transition-timing-function: ease-in;}
+    #div4 {transition-timing-function: ease-out;}
+    #div5 {transition-timing-function: ease-in-out;}
+      </body>
+</html>
