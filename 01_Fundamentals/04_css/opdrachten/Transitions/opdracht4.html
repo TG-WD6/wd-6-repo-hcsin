@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Transition opdracht3</title>
+    <title>Document</title>
     <style>
       .box_size {
         height: 100px;
@@ -17,25 +17,14 @@
       }
       .div1 {
         animation: box_L 5s infinite;
-        animation-timing-function: linear;
+        /* animation-timing-function: linear; */
       }
       @keyframes box_L {
-        0% {
-          left: 0px;
-          border-radius: 0%;
-        }
-        50% {
-          left: 400px;
-          border-radius: 50%;
-          background-color: black;
-          color: aqua;
-        }
-        100% {
-          left: 0px;
-          border-radius: 0%;
-        }
+        0% {left: 0px; border-radius: 0%;}
+        50% {left: 400px; border-radius: 50%; background-color: black; color: aqua;}
+        100% {left: 0px; border-radius: 0%;}
       }
-      .div2 {
+      /* .div2 {
         animation: box_E 5s infinite;
         animation-timing-function: ease;
       }
@@ -87,9 +76,9 @@
       }
       .div5 {
         animation: box_Eio 5s infinite;
-        animation-timing-function: ease-in-out;
-      }
-      @keyframes box_Eio {
+        /* animation-timing-function: ease-in-out; */
+      /* } */
+      /* @keyframes box_Eio {
         0% {
           left: 0px;
         }
@@ -97,11 +86,13 @@
           left: 400px;
           color: blueviolet;
           font-weight: 1000;
+          animation-timing-function: linear;
         }
         100% {
           left: 0px;
+          animation-timing-function: linear;
         }
-      }
+      } */
     </style>
   </head>
   <body>

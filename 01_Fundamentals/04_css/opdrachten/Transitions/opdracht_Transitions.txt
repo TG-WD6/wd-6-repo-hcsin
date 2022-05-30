@@ -4,18 +4,14 @@ Zoek uit wat transitions zijn en beschrijf met eigen woorden wat het betekent.
     
 Opdracht 2
 Maak een simpele transition die de kleur van een tekst aanpast.
-
+    zie opdracht2.html
 
 Opdracht 3
 Transitions kent verschillende transition-timing. Zie hieronder een voorbeeld. Maak het na.
-
-alt_text
-
+    zie opdracht3.html
 
 Opdracht 4
 Je kunt op verschillende properties transitions aangeven. Zie hieronder een voorbeeld. Zoek uit op welke properties de transitions zitten en maak het ongeveer hetzelfde na.
-
-alt_text
 
 
 Opdracht 5
