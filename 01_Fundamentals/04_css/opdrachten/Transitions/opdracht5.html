@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Transition opdracht5</title>
-</head>
-<body>
-    
-</body>
+    <style>
+      .container {
+        height: 200px;
+        width: 200px;
+        background-color: aqua;
+        /* background-image: url(raket.png); */
+        /* background-size: cover; */
+        border: solid 2px black;
+      }
+      .raket {
+        height: 100%;
+        width: 100%;
+        opacity: 1;
+        transition: opacity 2s;
+      }
+      .raket:hover {
+        opacity: 0.5;
+      }
+      .moving_square {
+        height: 200px;
+        width: 200px;
+        background-color: blueviolet;
+        position: absolute;
+        top: 10px;
+        transform: rotate(0deg);
+        transform-origin: 0px 250px;
+        transition: transform 3s;
+      }
+      .moving_square:hover {
+        transform: rotate(180deg);
+      }
+      @keyframes movement{
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img class="raket" src="raket.png" />
+      <div class="moving_square"></div>
+    </div>
+  </body>
 </html>

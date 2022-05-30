@@ -16,9 +16,7 @@ Je kunt op verschillende properties transitions aangeven. Zie hieronder een voor
 
 Opdracht 5
 Hieronder zie je wederom een voorbeeld van een transition. Je kunt op verschillende properties transitions aangeven. Zoek uit op welke properties de transitions zitten en maak het na. Je eigen creativiteit gebruiken is uiteraard toegestaan.
-
-alt_text
-
+    zie opdracht5.html
 
 Opdracht 6
 Zie de onderstaande card deck. Kun jij deze zelf namaken? Je mag uiteraard weer je eigen creativiteit erop los laten.
