@@ -20,9 +20,8 @@ Hieronder zie je wederom een voorbeeld van een transition. Je kunt op verschille
 
 Opdracht 6
 Zie de onderstaande card deck. Kun jij deze zelf namaken? Je mag uiteraard weer je eigen creativiteit erop los laten.
-
-alt_text
-
+    zie opdracht6.html
 
 Opdracht 7 - extra opdracht (optioneel)
 Zie de onderstaande animatie en probeer deze na te maken. Hier is gebruik gemaakt van keyframe animatie.
+    zie opdracht7.html
