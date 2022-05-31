@@ -6,105 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Transition opdracht4</title>
     <style>
-      .box_size {
+      body{
+        margin: 0;
+      }
+      .container {
+        height: 700px;
+        width: 1100px;
+        background-color: antiquewhite;
+        border: solid 1px black;
+      }
+      .sm_box {
         height: 100px;
         width: 100px;
-        background-color: antiquewhite;
-        position: relative;
+        background-color: rgb(75, 158, 253);
         display: flex;
         justify-content: center;
         align-items: center;
+        border: dotted 2px black;
+        position: absolute;
       }
-      .div1 {
-        animation: box_L 5s infinite;
-        /* animation-timing-function: linear; */
+      .box1{
+        animation: moves_box1 3s linear 0s alternate infinite;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        /* animation-direction: alternate; */
+        /* transform-origin: center; */
+        /* transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
       }
-      @keyframes box_L {
-        0% {left: 0px; border-radius: 0%;}
-        50% {left: 400px; border-radius: 50%; background-color: black; color: aqua;}
-        100% {left: 0px; border-radius: 0%;}
+      @keyframes moves_box1 {
+        0%{left: 500px; top: 300px;}
+        40%{left: 500px; top: 230px;}
+        60%{left: 0px; top: 100px;}
+        80%{left: 0px; top: 0px;}
+        100%{left: 0px; top: 0px;}
       }
-      /* .div2 {
-        animation: box_E 5s infinite;
-        animation-timing-function: ease;
+      .box2{
+        animation: moves_box2 3s ease-in-out 0s alternate infinite;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        /* transform-origin: center; */
+        /* animation-duration: alternate; */
       }
-      @keyframes box_E {
-        0% {
-          left: 0px;
-          border-radius: 0%;
-        }
-        50% {
-          left: 400px;
-          border-radius: 20%;
-          background-color: blue;
-          color: azure;
-        }
-        100% {
-          left: 0px;
-          border-radius: 0%;
-        }
+      @keyframes moves_box2 {
+        0%{left: 500px; top: 300px;}
+        10%{left: 500px; top: 230px;}
+        60%{left: 1000px; top: 100px;}
+        80%{left: 1000px; top: 0px;}
+        100%{left: 1000px; top: 0px;}
       }
-      .div3 {
-        animation: box_Ei 5s infinite;
-        animation-timing-function: ease-in;
+      .box3{
+        animation: moves_box3 6s linear 0s forwards infinite;
+        left: 0px;
+        top: 0px;
+        position: absolute;
+        transform-origin: center;
       }
-      @keyframes box_Ei {
-        0% {
-          left: 0px;
-        }
-        50% {
-          left: 400px;
-        }
-        100% {
-          left: 0px;
-        }
+      @keyframes moves_box3 {
+        0%{left: 500px; top: 300px;}
+        25%{left: 0px; top: 300px;}
+        40%{left: 0px; top: 600px;}
+        60%{left: 0px; top: 600px;}
+        75%{left: 500px; top: 600px;}
+        100%{left: 500px; top: 300px;}
       }
-      .div4 {
-        animation: box_Eo 5s infinite;
-        animation-timing-function: ease-out;
-      }
-      @keyframes box_Eo {
-        0% {
-          left: 0px;
-        }
-        50% {
-          left: 400px;
-        }
-        100% {
-          left: 0px;
-        }
-      }
-      .div5 {
-        animation: box_Eio 5s infinite;
-        /* animation-timing-function: ease-in-out; */
-      /* } */
-      /* @keyframes box_Eio {
-        0% {
-          left: 0px;
-        }
-        50% {
-          left: 400px;
-          color: blueviolet;
-          font-weight: 1000;
-          animation-timing-function: linear;
-        }
-        100% {
-          left: 0px;
-          animation-timing-function: linear;
-        }
-      } */
     </style>
   </head>
   <body>
-    <div class="box_size div1">linear</div>
-    <br />
-    <div class="box_size div2">ease</div>
-    <br />
-    <div class="box_size div3">ease-in</div>
-    <br />
-    <div class="box_size div4">ease-out</div>
-    <br />
-    <div class="box_size div5">ease-in-out</div>
-    <br />
+    <div class="container">
+      <div class="sm_box box1">
+        <p>1</p>
+      </div>
+      <div class="sm_box box2">
+        <p>2</p>
+      </div>
+      <div class="sm_box box3">
+        <p>3</p>
+      </div>
+    </div>
   </body>
 </html>
