@@ -94,6 +94,31 @@ nav a {
   bottom: 2px;
 }
 
-@media (min-width: 480px) {
-  
+@media (max-width: 480px) {
+  .page-title{
+    width: 270px;
+  }
+}
+
+@media (min-width: 320px) and (max-width:480px), (orientation: portrait){
+  .gallery-item .thumbnail{
+    width: 95%;
+  }
+}
+@media (min-resolution: 150dpi) {
+  .logo{
+    background-image: url("./images/spaceship2.png");
+  }
+}
+
+@media (min-resolution: 150dpi) and (max-width: 480px) {
+  .page-description{
+    font-size: 20px;
+  }
+}
+
+@media (min-width:768px) and (max-width:1024),(orientation: landscape) {
+  .page-title .page-description{
+    display: flex;
+  }
 }
