@@ -117,8 +117,15 @@ nav a {
   }
 }
 
-@media (min-width:768px) and (max-width:1024),(orientation: landscape) {
-  .page-title .page-description{
-    display: flex;
+@media (min-width: 768px) and (max-width:1024px), (orientation: landscape) {
+  body{
+    display: grid;
+    grid-template-columns: 30% auto;
+    gap: 10px;
+    padding: 10px;
+    color: aqua;
+  }
+  header{
+    grid-row: 1 / 8;
   }
 }
