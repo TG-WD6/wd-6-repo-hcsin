@@ -1,0 +1,19 @@
+@import "./assets/color";
+@import "./assets/button";
+
+@mixin flexBGColor($chooseColor) {
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+  background-color: $chooseColor;
+  transition: background-color 3s;
+}
+
+.colorChangingSquare {
+  @include flexBGColor($background-color);
+}
+
+.colorChangingSquare:hover {
+  @include flexBGColor($background-color-hover);
+  // background-color: $background-color-hover;
+}
