@@ -15,7 +15,7 @@
 
 .colorChangingSquare {
   margin: 20px;
-  height: 100px;
+  height: 50px;
   width: 100px;
   background-color: black;
   -webkit-transition: background-color 3s;
@@ -24,7 +24,7 @@
 
 .colorChangingSquare:hover {
   margin: 20px;
-  height: 100px;
+  height: 50px;
   width: 100px;
   background-color: #d3bdde;
   -webkit-transition: background-color 3s;

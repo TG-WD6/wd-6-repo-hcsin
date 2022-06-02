@@ -3,7 +3,7 @@
 
 @mixin flexBGColor($chooseColor) {
   margin: 20px;
-  height: 100px;
+  height: (100px / 2);
   width: 100px;
   background-color: $chooseColor;
   transition: background-color 3s;

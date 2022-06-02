@@ -1,0 +1,77 @@
+Operators
+Opdracht 1
+.image {
+  height: 800px; // compiled 
+  width: auto;
+}
+
+Opdracht 2
+.image {
+  height: 500px; // compiled 
+  width: auto;
+}
+
+Opdracht 3
+.image {
+  height: 100px; // compiled
+  width: auto;
+}
+
+Opdracht 4
+.image {
+  height: 200px + 100px - 400px; // compiled naar -100 "invalid propertie", dit propertie word niet uitgevoerd.
+  width: auto;
+}
+
+Opdracht 5
+.image {
+  height: 600px; // compiled
+  width: auto;
+}
+
+Opdracht 6
+.image {
+  height: 750px * 1px; // px is geen eenheid om er mee te vermenigvuldigen height blijf 750px
+  width: auto;
+}
+
+Opdracht 7
+.image {
+  height: 30px / 5px;
+  width: 24px / 4;
+}
+hier wordt "/" gezien als een separator,  dit propertie word niet uitgevoerd.
+
+Opdracht 8
+.image {
+  height: (30px / 5px); // 6px
+  width: (24px/ 4); // 6px
+}
+
+
+Slash-Separated Values permalinkSlash-Separated Values
+For the time being while Sass still supports / as a division operator, it has to have a way to disambiguate between / as a separator and / as division. In order to make this work, if two numbers are separated by /, Sass will print the result as slash-separated instead of divided unless one of these conditions is met:
+
+Either expression is anything other than a literal number.
+The result is stored in a variable or returned by a function.
+The operation is surrounded by parentheses, unless those parentheses are outside a list that contains the operation.
+The result is used as part of another operation (other than /).
+You can use [list.slash()] to force / to be used as a separator.
+
+@use "sass:list";
+
+@debug 15px / 30px; // 15px/30px
+@debug (10px + 5px) / 30px; // 0.5
+@debug list.slash(10px + 5px, 30px); // 15px/30px
+
+$result: 15px / 30px;
+@debug $result; // 0.5
+
+@function fifteen-divided-by-thirty() {
+  @return 15px / 30px;
+}
+@debug fifteen-divided-by-thirty(); // 0.5
+
+@debug (15px/30px); // 0.5
+@debug (bold 15px/30px sans-serif); // bold 15px/30px sans-serif
+@debug 15px/30px + 1; // 1.5
