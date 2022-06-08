@@ -233,11 +233,29 @@ header {
     padding-left: 10px;
     display: block;
     margin: 0;
+    position: relative;
+    left: 250px;
+    transition: all 0.5s ease;
+  }
+  .nav_menu ul li:nth-child(2) {
+    transition-delay: 0.025s;
+  }
+  .nav_menu ul li:nth-child(3) {
+    transition-delay: 0.05s;
+  }
+  .nav_menu ul li:nth-child(4) {
+    transition-delay: 0.075s;
+  }
+  .nav_menu ul li:nth-child(5) {
+    transition-delay: 0.1s;
   }
   .header #nav_check:checked ~ .nav_menu {
     top: 100%;
     opacity: 1;
     visibility: visible;
+  }
+  .header #nav_check:checked ~ .nav_menu ul li {
+    left: 0px;
   }
   .header #nav_check:checked ~ .nav_toggler span {
     background-color: transparent;
@@ -270,11 +288,28 @@ header {
     padding-left: 10px;
     display: inline-block;
     margin: 0;
+    left: 250px;
+    transition: all 0.5s ease;
+  }
+  .nav_menu ul li:nth-child(2) {
+    transition-delay: 0.1s;
+  }
+  .nav_menu ul li:nth-child(3) {
+    transition-delay: 0.2s;
+  }
+  .nav_menu ul li:nth-child(4) {
+    transition-delay: 0.3s;
+  }
+  .nav_menu ul li:nth-child(5) {
+    transition-delay: 0.4s;
   }
   .header #nav_check:checked ~ .nav_menu {
     opacity: 1;
     top: 100%;
     visibility: visible;
+  }
+  .header #nav_check:checked ~ .nav_menu ul li {
+    left: 0px;
   }
   .header #nav_check:checked ~ .nav_toggler span {
     background-color: transparent;
