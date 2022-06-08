@@ -159,7 +159,7 @@ header {
   padding: 10px 0;
   color: #f9f9f9;
   text-transform: capitalize;
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
 }
 
 .nav_menu ul li a:hover, .nav_menu ul li a.active {
@@ -193,6 +193,7 @@ header {
   width: 20px;
   background-color: #f9f9f9;
   position: relative;
+  transition: all 0.2s ease-out;
 }
 
 .nav_toggler span::before, .nav_toggler span::after {
@@ -202,10 +203,12 @@ header {
   height: 100%;
   background-color: #f9f9f9;
   left: 0;
+  transition: all 0.2s ease-out;
 }
 
 .nav_toggler span::before {
   top: -6px;
+  visibility: visible;
 }
 
 .nav_toggler span::after {
@@ -220,10 +223,11 @@ header {
     background-color: #32036b;
     position: absolute;
     left: 0;
-    top: 100%;
+    top: 10%;
     width: 100%;
     opacity: 0;
     visibility: hidden;
+    transition: all 0.2s ease-out;
   }
   .nav_menu ul li {
     padding-left: 10px;
@@ -231,6 +235,7 @@ header {
     margin: 0;
   }
   .header #nav_check:checked ~ .nav_menu {
+    top: 100%;
     opacity: 1;
     visibility: visible;
   }
@@ -254,11 +259,12 @@ header {
   .nav_menu {
     background-color: #32036b;
     position: absolute;
-    left: 0;
-    top: 100%;
+    left: 0px;
+    top: 50%;
     width: 100%;
     opacity: 0;
     visibility: hidden;
+    transition: all 0.2s ease-out;
   }
   .nav_menu ul li {
     padding-left: 10px;
@@ -267,6 +273,7 @@ header {
   }
   .header #nav_check:checked ~ .nav_menu {
     opacity: 1;
+    top: 100%;
     visibility: visible;
   }
   .header #nav_check:checked ~ .nav_toggler span {
