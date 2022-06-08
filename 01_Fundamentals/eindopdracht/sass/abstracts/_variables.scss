@@ -1,0 +1,29 @@
+$theme_color: rgb(50, 3, 107);
+$primery_color: black;
+$accent_color:yellow;
+$text_color:blue;
+$font_weights: (
+    "regular": 400,
+    "medium": 500,
+    "bold": 700
+    );
+
+$screen_s: 480px;
+$screen_m: 720px;
+$screen_l: 1200px;
+
+$theme_white: #f9f9f9;
+$theme_black: #36383F;
+$theme_gray: #85888C;
+
+@mixin flex_direction ($direction, $align) {
+    display: flex;
+    justify-content: center;
+    align-items: $align;
+    flex-direction: $direction;
+}
+
+@mixin grid_direction () {
+    display: grid;
+    gap: 15px;
+}

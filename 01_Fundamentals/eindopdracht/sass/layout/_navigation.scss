@@ -1,0 +1,134 @@
+@import "../abstracts/variables";
+
+.nav_menu ul li {
+  display: inline-block;
+  margin-left: 40px;
+  background-color: $theme_color;
+  a {
+    display: block;
+    font-size: 16px;
+    padding: 10px 0;
+    color: $theme_white;
+    text-transform: capitalize;
+    transition: all 0.5s ease;
+    &:hover,
+    &.active {
+      color: $theme_gray;
+    }
+  }
+}
+#nav_check {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+.nav_toggler {
+  position: absolute;
+  right: 15px;
+  height: 34px;
+  width: 44px;
+  border-radius: 4px;
+  cursor: pointer;
+  @include flex-direction(center, center);
+  display: none;
+  // align-items: center;
+  // justify-content: center;
+  margin-right: 15px;
+  span {
+    display: block;
+    height: 2px;
+    width: 20px;
+    background-color: $theme_white;
+    position: relative;
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: $theme_white;
+    left: 0;
+  }
+}
+span::before {
+    top: -6px;
+  }
+  span::after {
+    top: 6px;
+  }
+}
+@media (max-width: $screen_s) {
+  .nav_toggler {
+    display: flex;
+  }
+  .nav_menu {
+    background-color: $theme_color;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    ul li {
+      padding-left: 10px;
+      display: block;
+      margin: 0;
+    }
+  }
+  .header #nav_check:checked ~ .nav_menu {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .header #nav_check:checked ~ .nav_toggler {
+    span {
+      background-color: transparent;
+    }
+    span::before {
+      top: 0;
+      transform: rotate(45deg);
+    }
+    span::after {
+      top: 0;
+      transform: rotate(-45deg);
+    }
+  }
+}
+
+@media (max-width: $screen_m) and (min-width: $screen_s){
+  .nav_toggler {
+    display: flex;
+  }
+  .nav_menu {
+    background-color: $theme_color;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    ul li {
+      padding-left: 10px;
+      display: inline-block;
+      margin: 0;
+    }
+  }
+  .header #nav_check:checked ~ .nav_menu {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .header #nav_check:checked ~ .nav_toggler {
+    span {
+      background-color: transparent;
+    }
+    span::before {
+      top: 0;
+      transform: rotate(45deg);
+    }
+    span::after {
+      top: 0;
+      transform: rotate(-45deg);
+    }
+  }
+}

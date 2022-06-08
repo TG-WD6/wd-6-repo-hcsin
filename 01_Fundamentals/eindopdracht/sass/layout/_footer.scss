@@ -1,0 +1,34 @@
+@import "../abstracts/variables";
+
+.footer_container {
+  font-size: 12px;
+  margin-top: 30px;
+  padding: 15px;
+  background-color: antiquewhite;
+  @include grid_direction();
+  grid-template-columns: 1fr 1fr 2fr 1fr;
+  color: $theme_gray;
+}
+
+.volg_ons {
+  i {
+    margin-top: 5px;
+    font-size: 25px;
+    color: $theme_color;
+  }
+}
+.footer_title {
+  color: $theme_black;
+}
+
+@media (max-width: $screen_s) {
+  .footer_container {
+    font-size: 15px;
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: $screen_m) and (min-width: $screen_s){
+  .footer_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
