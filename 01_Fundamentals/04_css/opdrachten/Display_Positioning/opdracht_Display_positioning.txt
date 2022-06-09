@@ -1,0 +1,32 @@
+Opdracht 1
+De belangrijkste waardes van “position” zijn static, relative, absolute, fixed & sticky. Leg voor elke uit wat ze doen.
+    Static = heeft geen effect, de positie gebruikt de standaard value.
+    Relatief = is gepositioneerd ten opzichte van zijn normale positie.
+    Absolute = Het element wordt uit de normale static value gehaald en gepositioneerd ten opzichte van zijn dichtstbijzijnde parent, indien aanwezig; anders wordt het relatief ten opzichte van het oorspronkelijke bevattende blok geplaatst.
+    Fixed =  wordt relatief ten opzichte van het kijkvenster gepositioneerd, het blijft altijd op de zelfde plaats zelfs als de pagina wordt gescrold. 
+    Sticky = wordt gepositioneerd op basis van de scrollpositie van de gebruiker. Een sticky element schakelt tussen relative en fixed, afhankelijk van de scroll positie. Het wordt relatief gepositioneerd totdat een bepaalde offsetpositie wordt bereikt in de viewport - dan "sticks" het op zijn plaats (zoals positie: vast).
+
+Opdracht 2
+Zie de onderstaande HTML code.
+    zie opdracht2.html
+
+Opdracht 3
+Zorg er nu voor dat het <h1> element uit de voorgaande opdracht 20px links en 30px naar onder wordt geplaatst, relatief t.o.v. diens normale positie.
+    zie opdracht2.html
+
+Opdracht 4
+Zorg er nu voor dat het <h1> element uit opdracht 2 50px links en 100px van de top wordt geplaatst relatief t.o.v. de HTML pagina.
+    zie opdracht2.html
+
+Opdracht 5
+    zie opdracht5.html
+
+Opdracht 6
+    zie opdracht5.html
+
+Opdracht 7
+Zie de onderstaande image met tekst. Kun jij dit namaken? Gebruik zelf een foto van een zonnige bestemming. Gebruik position, maar je mag geen z-index toepassen.
+    zie opdracht7.html
+
+Opdracht 8
+Maak het onderstaande na. Je mag zelf een image zoeken en gebruiken.

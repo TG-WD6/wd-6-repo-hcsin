@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display & position opdracht8</title>
+    <style>
+      div.relative {
+        position: relative;
+        width: 800px;
+      }
+
+      div.absolute {
+        position: absolute;
+        top: 300px;
+        right: 50px;
+      }
+      img {
+        width: 800px;
+        height: 200;
+      }
+      span {
+        color: brown;
+      }
+      .div1 {
+        height: 70px;
+        width: 850px;
+        background-color: yellow;
+        position: absolute;
+        top: 250px;
+      }
+      .div2{
+        position: fixed;
+        left: -5px;
+        top: 250px;
+        width: 700px;
+        text-align: right;
+        background-color: rgba(255, 255, 255, 0.3);
+        background-image: linear-gradient(to left, rgb(255, 255, 0, 0.9), rgba(0, 255, 255, 0.3));
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1">
+      <!-- yellow block behind -->
+    </div>
+
+    <div class="relative">
+      <img src="./pig1.png" />
+      <div class="div1 div2">
+        <h1 style="padding-right: 100px">Bbbrrrr....</h1>
+      </div>
+      <div class="absolute">
+        <p style="color: darkblue; background-color: aliceblue; padding-left: 20px; padding-right: 100px;">Super koud hier zeg!</p>
+      </div>
+    </div>
+  </body>
+</html>

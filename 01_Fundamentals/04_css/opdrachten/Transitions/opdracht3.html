@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transition opdracht3</title>
+    <style>
+      .box_size {
+        height: 100px;
+        width: 100px;
+        background-color: antiquewhite;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .div1 {
+        animation: box_L 5s infinite;
+        animation-timing-function: linear;
+      }
+      @keyframes box_L {
+        0% {
+          left: 0px;
+          border-radius: 0%;
+        }
+        50% {
+          left: 400px;
+          border-radius: 50%;
+          background-color: black;
+          color: aqua;
+        }
+        100% {
+          left: 0px;
+          border-radius: 0%;
+        }
+      }
+      .div2 {
+        animation: box_E 5s infinite;
+        animation-timing-function: ease;
+      }
+      @keyframes box_E {
+        0% {
+          left: 0px;
+          border-radius: 0%;
+        }
+        50% {
+          left: 400px;
+          border-radius: 20%;
+          background-color: blue;
+          color: azure;
+        }
+        100% {
+          left: 0px;
+          border-radius: 0%;
+        }
+      }
+      .div3 {
+        animation: box_Ei 5s infinite;
+        animation-timing-function: ease-in;
+      }
+      @keyframes box_Ei {
+        0% {
+          left: 0px;
+        }
+        50% {
+          left: 400px;
+        }
+        100% {
+          left: 0px;
+        }
+      }
+      .div4 {
+        animation: box_Eo 5s infinite;
+        animation-timing-function: ease-out;
+      }
+      @keyframes box_Eo {
+        0% {
+          left: 0px;
+        }
+        50% {
+          left: 400px;
+        }
+        100% {
+          left: 0px;
+        }
+      }
+      .div5 {
+        animation: box_Eio 5s infinite;
+        animation-timing-function: ease-in-out;
+      }
+      @keyframes box_Eio {
+        0% {
+          left: 0px;
+        }
+        50% {
+          left: 400px;
+          color: blueviolet;
+          font-weight: 1000;
+        }
+        100% {
+          left: 0px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box_size div1">linear</div>
+    <br />
+    <div class="box_size div2">ease</div>
+    <br />
+    <div class="box_size div3">ease-in</div>
+    <br />
+    <div class="box_size div4">ease-out</div>
+    <br />
+    <div class="box_size div5">ease-in-out</div>
+    <br />
+  </body>
+</html>

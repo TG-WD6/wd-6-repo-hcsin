@@ -1,0 +1,48 @@
+Wat is HTML?
+    HTML is de afkorting van HyperText Markup Language en is de standaard opmaaktaal voor webpagina's. 
+    Het is de taal waarmee webpagina's worden gemaakt, die vervolgens kan worden bekeken op je browser.
+
+Hoe ziet de basis-structuur van HTML eruit?
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pagina titel</title>
+</head>
+<body>
+    <h1>Kop</h1>
+    <p>Tekst.</p>
+</body>
+</html>
+
+
+
+Wat is een anchor tag?
+    De anchor tag is klikvare tekst waar de (hyper)link gekoppeld is.
+    <a href=”https://www.google.nl/”>De anchor tag</a>
+    Een anchor tekst is klikbaar en op de meeste websites heeft een andere style qua kleur dan de rest van de tekst.
+
+Noem een aantal nieuwe functionaliteiten van HTML5
+    HTML5 is visueel sterk en vaak interactief, zoals banners waar je meer tekst en afbeeldingen kwijt kan, ze zijn meer eyecatchen.
+
+Wat zijn HTML attributen?
+    Een attribuut geeft extra informatie over een element en worden gespecificeert in de begin-tag.
+
+Wat is HTML semantics?
+    Semantische html is een nadruk leggen tussen de naam van het element en de inhoud ervan, zowel voor de ontwikkelaar als voor de browser.
+
+Waarvoor worden meta tags gebruikt?
+    Metadata is informatie over data. Een HTML meta tag geeft informatie over een HTML document. 
+    Deze informatie kan belangrijk voor browsers, zoekmachines (zoals Google) en andere web services zijn om te bepalen waar de pagina over gaat en hoe deze is opgebouwd. 
+    Bv title is voor google(SEO) belangrijk.
+
+Wat is een nested element?
+    HTML-element binnen een ander element wordt Nested element genoemd.
+    bv <p>This is <em>Emphasize</em> Text</p>, <em> is dan nested element.
+
+Wat is het verschil tussen inline- en blok-elementen?
+    Inline-elementen beginnen niet in een nieuwe regel.
+    Block-elementen beginnen altijd met de nieuwe regel.
+
+Wat is accessibility?
+    Zoveel mogelijk de juiste HTML-elementen worden gebruiken voor het beoogde doel.
+    bv als je een knop wil maken, gebruikt de syntax <button>Inschrijven</button> ipv <div>Inschrijven</div>

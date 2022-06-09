@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      section {
+        display: grid;
+        grid-template-areas:
+          "myArea articleArea"
+          "myArea articleArea";
+        grid-gap: 10px;
+        grid-template-columns: 1fr 3fr;
+      }
+
+      section > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+
+      .sidebar {
+        grid-area: myArea;
+        /* max-width: 30vw; */
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div class="sidebar"><p>Sidebar</p></div>
+      <div class="article" id="article_1"><p>Article</p></div>
+      <div class="article" id="article_2"><p>Article</p></div>
+    </section>
+    <p>something</p>
+  </body>
+</html>

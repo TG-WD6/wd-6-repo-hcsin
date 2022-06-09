@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo elements opdracht4</title>
+
+    <style>
+      .rounded_block {
+        height: 50px;
+        width: 140px;
+        background-color: black;
+        border-radius: 50px;
+        display: inline-block;
+      }
+      .shape {
+        height: 100px;
+        width: 200px;
+        margin: 0.5em;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .big_dot {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        background-color: black;
+        border-radius: 50px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-weight: 800;
+        font-size: 30px;
+      }
+      p::before {
+        content: ".";
+        position: relative;
+        top: -20px;
+        padding-right: 1em;
+        font-family: "Courier New", Courier, monospace;
+      }
+      p::after {
+        content: ".";
+        padding-left: 1em;
+        font-family: "Courier New", Courier, monospace;
+      }
+      .container{
+          display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <div class="shape">
+        <div style="position: absolute">
+          <span class="rounded_block"></span>
+        </div>
+        <div class="big_dot">
+          <p>1</p>
+        </div>
+      </div>
+      <div class="shape">
+        <div style="position: absolute">
+          <span class="rounded_block"></span>
+        </div>
+        <div class="big_dot">
+          <p>2</p>
+        </div>
+      </div>
+      <div class="shape">
+        <div style="position: absolute">
+          <span class="rounded_block"></span>
+        </div>
+        <div class="big_dot">
+          <p>3</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

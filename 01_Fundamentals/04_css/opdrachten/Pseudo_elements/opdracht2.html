@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo elements opdracht2</title>
+    <style>
+      .btn-element {
+        width: 500px;
+        height: 60px;
+        margin: 10px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(16, 180, 167);
+        color: white;
+        font-size: 30px;
+        font-weight: 500;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      
+      .btn-element::before{
+        border-bottom: 8px solid orangered;
+        border-left: 8px solid orangered;
+        height: 100%;
+        width: 60px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: "";
+        box-sizing: border-box;
+      }
+      .btn-element::after{
+        border-top: 8px solid orangered;
+        border-right: 8px solid orangered;
+        height: 100%;
+        width: 60px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        content: "";
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="btn-element">
+      <div class="content">Button</div>
+    </div>
+  </body>
+</html>

@@ -93,3 +93,39 @@ nav a {
   position: relative;
   bottom: 2px;
 }
+
+@media (max-width: 480px) {
+  .page-title{
+    width: 270px;
+  }
+}
+
+@media (min-width: 320px) and (max-width:480px) and (orientation: portrait){
+  .gallery-item .thumbnail{
+    width: 95%;
+  }
+}
+@media (min-resolution: 150dpi) {
+  .logo{
+    background-image: url("./images/spaceship2.png");
+  }
+}
+
+@media (min-resolution: 150dpi) and (max-width: 480px) {
+  .page-description{
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width:1024px) and (orientation: landscape) {
+  body{
+    display: grid;
+    grid-template-columns: 30% auto;
+    gap: 10px;
+    padding: 10px;
+    color: aqua;
+  }
+  header{
+    grid-row: 1 / 8;
+  }
+}

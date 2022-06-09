@@ -1,0 +1,24 @@
+Extend and Inheritance
+Opdracht 1
+We hebben nu zowel mixins als extends gezien die beiden styling kunnen overnemen. Lees dit artikel en geef een uitleg wanneer we inheritance gebruiken en wanneer we mixins gebruiken.
+
+@mixin wordt gebruikt om css-code te groeperen die een aantal keer opnieuw moet worden gebruikt.
+@extend wordt gebruikt om de eigenschappen van een andere CSS-selector te inherit(share), het is handigst wanneer de elementen bijna hetzelfde of identiek zijn.
+
+Als je geen dynamische stijlen hebt, is het gebruik van @extend en je kunt je stijlen delen tussen twee selectors. Het gebruik van mixins voor alleen statische stijlen veroorzaakt onnodig opgeblazen stylesheets, dus het is een goed idee om de declaraties minimaal te houden en alleen voor dynamische declaraties, omdat deze worden gedupliceerd.
+
+Opdracht 2
+
+$font-s: 12px;
+$font-m: 18px;
+$font-l: 24px;
+
+.text-content {
+    font-size: font-s;
+  @media screen and (max-width: 480px) {
+    font-size: font-l;
+  }
+  @media screen and (max-width: 7680px) {
+    font-size: font-m;
+  }
+}

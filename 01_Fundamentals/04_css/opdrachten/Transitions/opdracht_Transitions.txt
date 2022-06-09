@@ -1,0 +1,27 @@
+Opdracht 1
+Zoek uit wat transitions zijn en beschrijf met eigen woorden wat het betekent.
+    CSS transitions is een manier om de animatie(snelheid) te regelen bij het wijzigen van CSS-properties. Door wijzigingen aan te geven zorgen er voor dat de eigenschappen veranderen in een periode.
+    
+Opdracht 2
+Maak een simpele transition die de kleur van een tekst aanpast.
+    zie opdracht2.html
+
+Opdracht 3
+Transitions kent verschillende transition-timing. Zie hieronder een voorbeeld. Maak het na.
+    zie opdracht3.html
+
+Opdracht 4
+Je kunt op verschillende properties transitions aangeven. Zie hieronder een voorbeeld. Zoek uit op welke properties de transitions zitten en maak het ongeveer hetzelfde na.
+
+
+Opdracht 5
+Hieronder zie je wederom een voorbeeld van een transition. Je kunt op verschillende properties transitions aangeven. Zoek uit op welke properties de transitions zitten en maak het na. Je eigen creativiteit gebruiken is uiteraard toegestaan.
+    zie opdracht5.html
+
+Opdracht 6
+Zie de onderstaande card deck. Kun jij deze zelf namaken? Je mag uiteraard weer je eigen creativiteit erop los laten.
+    zie opdracht6.html
+
+Opdracht 7 - extra opdracht (optioneel)
+Zie de onderstaande animatie en probeer deze na te maken. Hier is gebruik gemaakt van keyframe animatie.
+    zie opdracht7.html
