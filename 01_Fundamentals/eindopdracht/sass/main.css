@@ -26,7 +26,7 @@
   }
 }
 
-@media (max-width: 720px) and (min-width: 480px) {
+@media (max-width: 900px) and (min-width: 480px) {
   .footer_container {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -105,7 +105,7 @@ button {
   }
 }
 
-@media (max-width: 720px) and (min-width: 480px) {
+@media (max-width: 900px) and (min-width: 480px) {
   .login_pic {
     height: 200px;
     width: 200px;
@@ -141,7 +141,7 @@ header {
   height: 100%;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 900px) {
   .logo {
     height: 40px;
   }
@@ -270,7 +270,7 @@ header {
   }
 }
 
-@media (max-width: 720px) and (min-width: 480px) {
+@media (max-width: 900px) and (min-width: 480px) {
   .nav_toggler {
     display: flex;
   }
@@ -379,6 +379,12 @@ header {
   font-size: 20px;
 }
 
+.product .product_price sup {
+  position: relative;
+  top: 2px;
+  font-size: 12px;
+}
+
 .product .deliver_time {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -400,10 +406,6 @@ header {
 
 .product .product_add_card i {
   padding: 3px;
-}
-
-sup {
-  font-size: 12px;
 }
 
 @media (max-width: 480px) {
@@ -436,7 +438,7 @@ sup {
   }
 }
 
-@media (max-width: 720px) and (min-width: 480px) {
+@media (max-width: 900px) and (min-width: 480px) {
   .product .product_item {
     grid-template-columns: 168px 350px 80px;
   }

@@ -37,6 +37,11 @@
     color: red;
     font-weight: 700;
     font-size: 20px;
+    sup {
+      position: relative;
+      top: 2px;
+      font-size: 12px;
+    }
   }
   .deliver_time {
     margin-top: 10px;
@@ -56,9 +61,7 @@
     }
   }
 }
-sup {
-  font-size: 12px;
-}
+
 @media (max-width: $screen_s) {
   .product {
     @include flex_direction(column, center);
