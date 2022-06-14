@@ -1,4 +1,4 @@
-package java.variableAndOperators;
+package hcsin.variableAndOperators;
 
 public class Opdracht2 {
 

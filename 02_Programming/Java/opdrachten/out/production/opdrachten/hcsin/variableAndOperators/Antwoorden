@@ -1,0 +1,27 @@
+Opdracht 1 - Wanneer gebruik je een int, long, double of float?
+int 32-bit : This will have a minimum value of 0 and a maximum value of 232-1.
+long 64-bit : The long data type can have values from -263 to 263-1 (64-bit signed two's complement integer).
+float 32-bit :The float data type is a single-precision 32-bit floating-point. It should never be used for precise values such as currency.
+double 64-bit : The double data type is a double-precision 64-bit floating-point.
+                It should never be used for precise values such as currency.
+
+Opdracht 2 - Probeer een String en een int bij elkaar op te tellen en print het resultaat in je console.
+zie opdracht 2
+
+Opdracht 3 - Geef Ben een ‘numberOfCats’ met een waarde van 10. Print deze waarde in je console.
+zie class Katten
+
+Opdracht 4 - Ben besluit opeens om nog 5 katten in huis te halen. Pas de waarde aan en print deze in je console.
+zie class Katten
+
+Opdracht 5 - Print ‘numberOfCats’ % 4 in je terminal. Hoeveel katten houdt Ben over?
+zie class Katten
+
+Opdracht 6 - Vervang het bovenstaande teken ‘<’ door alle vijf van de andere relational en equality operators, en print alle zes de resultaten in je console.
+zie opdracht 6
+
+Opdracht 7 - Strictly Typed
+Wat is een voordeel van Strict Typing?
+Wat is een voordeel van Weak Typing? dynamisch
+Strong typing betekent dat een variabele niet automatisch van het ene type naar het andere wordt geconverteerd.
+Weak typing is het tegenovergestelde: Perl kan een string als "123" gebruiken in een numerieke context, door deze automatisch om te zetten in de int 123

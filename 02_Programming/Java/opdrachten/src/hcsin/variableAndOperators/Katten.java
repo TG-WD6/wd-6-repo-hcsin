@@ -1,4 +1,4 @@
-package java.variableAndOperators;
+package hcsin.variableAndOperators;
 
 public class Katten {
     public static void main(String[] args) {

@@ -1,0 +1,17 @@
+Opdracht 1 - Noem de vier verschillende Access Control Modifiers en geef bij elke een korte beschrijving.
+Private:  het toegangsniveau van een privé-modifier is alleen binnen de klas. Het is niet toegankelijk van buiten de klas.
+Default: Het toegangsniveau van een standaardmodifier is alleen binnen het pakket. Het is niet toegankelijk van buiten het pakket. Als u geen toegangsniveau opgeeft, is dit het standaardniveau.
+protected: Het toegangsniveau van een beschermde modifier is binnen het pakket en buiten het pakket via de onderliggende klasse. Als u de onderliggende klasse niet maakt, is deze niet toegankelijk van buiten het pakket.
+public: Het toegangsniveau van een openbare modifier is overal. Het is toegankelijk vanuit de klas, buiten de klas, binnen het pakket en buiten het pakket.
+
+Opdracht 2 - Kan je uitleggen waar je static en final voor zou gebruiken? En wat is het voordeel ervan als je dit doet?
+Wanneer een methode als "static" wordt gedeclareerd, is het niet nodig om een object te maken om die methode aan te roepen. De methode kan worden aangeroepen met behulp van de klassenaam.
+Een variabele die als "final" is gedeclareerd en met een waarde is geïnitialiseerd, kan later in het programma niet worden gewijzigd.
+
+Opdracht 3 - Wanneer gebruik je .equals() en wanneer gebruik je ==?
+De methode equals() en de operator == worden gebruikt om twee objecten in Java te vergelijken. == is een operator en equals() is een methode.
+Maar == operator vergelijkt de referentie- of geheugenlocatie van objecten op een heap, of ze nu naar dezelfde locatie verwijzen of niet.
+
+We kunnen == operators gebruiken voor referentievergelijking (address comparison) en .equals() methode voor inhoudsvergelijking.
+== controleert of beide objecten naar dezelfde geheugenlocatie verwijzen, terwijl .equals() evalueert naar de vergelijking van waarden in de objecten.
+Als een klasse de equals-methode niet overschrijft, gebruikt deze standaard de equals(Object o)-methode van de dichtstbijzijnde bovenliggende klasse die deze methode heeft overschreven.

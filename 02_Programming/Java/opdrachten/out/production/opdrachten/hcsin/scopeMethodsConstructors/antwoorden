@@ -1,0 +1,17 @@
+Opdracht 1 - Maak een nieuwe class Car en geef deze een field ‘color’. Zorg ervoor dat Car een constructor heeft die de kleur van je auto toewijst.
+zie opdracht2
+Opdracht 2 - Print een Car object in de terminal.
+zie opdracht2
+
+Opdracht 3 - Geef je Car een nieuwe method printColor() die de kleur van de auto in de terminal print en voer deze in je main() method uit.
+zie opdracht3
+
+Opdracht 4 - Overload je constructor. Geef als extra parameter de String ‘name’ voor je auto. Maak vervolgens 2 auto’s aan in je main() - eentje met en eentje zonder naam.
+zie opdracht4
+
+Opdracht 5 - Maak een derde constructor zonder argumenten. Zorg ervoor dat je auto’s een standaard kleur krijgen als deze niet is meegegeven. Maak nu een derde auto aan in je main() op deze manier, en print van alle drie je auto’s de kleur in je terminal.
+zie opdracht4
+
+Opdracht 6 - Geef je Car class een method toString() met een return value “Dit is een <kleur> auto”.
+
+Opdracht 7 - Voer de toString() method van een auto uit in je main() en print het resultaat in je terminal. Print daarnaast ook het hele auto object.
