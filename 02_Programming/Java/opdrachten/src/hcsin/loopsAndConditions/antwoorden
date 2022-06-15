@@ -1,0 +1,43 @@
+Opdracht 1 - If/Else of Switch/Case?
+zie opdracht1, opdracht1_3, opdracht1_5 en opdracht1_6
+
+Opdracht 2
+Wat komt er uit bij elke van deze drie variabelen?
+1. true
+2. true
+3. true
+
+Voldoet dit voor elke aan je verwachtingen?
+bij sum 2 moet false zijn
+
+Beschrijf voor elke van de drie in mensentaal wat er precies in de conditie staat, en in welke volgorde dit geëvalueerd wordt.
+!(a == 7 && (b >= a || a != a))
+"b >= a || a != a"
+6 is grote of gelijk aan 3 of 3 is niet gelijk aan 3 >> false or true >> fasle
+!(a == 7 && false)
+3 is niet gelijk aan 7 = false
+!(false && false)
+als false en false omgekeerd zijn dan is het true, dus antwoord is true
+
+--------------------
+a == b || !(b>3)
+3 is niet gelijk aan 6
+false || !(b>3)
+!(6 is grote dan 3 = true)
+!(true) omgekeerd is false
+false of false = false
+
+--------------------
+!(b <= a && b != a +b)
+6 is niet kleine of gelijk aan 3 = false
+!(false && b != a +b)
+6 is niet 3 + 6 = false
+!(false && false) omgekeerd = true
+
+
+Opdracht3
+1. Wat gebeurt er met een loop als je “while (true) { /* code */ }” gebruikt?
+de loop bij lopen zolang de condities true is
+2. zie opdracht3_2
+3. zie opdracht3_3
+4. zie opdracht3_4

@@ -13,5 +13,7 @@ Opdracht 5 - Maak een derde constructor zonder argumenten. Zorg ervoor dat je au
 zie opdracht4
 
 Opdracht 6 - Geef je Car class een method toString() met een return value “Dit is een <kleur> auto”.
+zie opdracht4
 
 Opdracht 7 - Voer de toString() method van een auto uit in je main() en print het resultaat in je terminal. Print daarnaast ook het hele auto object.
+zie opdracht4

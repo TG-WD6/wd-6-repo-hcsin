@@ -1,0 +1,23 @@
+Opdracht 1 - Maak een String[] cats met vier katten. Print alle vier de katten in je terminal.
+zie opdracht1
+
+Opdracht 2 - Print de lengte van cats.
+zie opdracht1
+
+Opdracht 3 - Sorteer cats in één binnenkat en drie buitenkatten met een multi-dimensional array sortedCats, en print vervolgens de lengte van sortedCats.
+zie opdracht1
+
+Opdracht 4 - Maak nu een ArrayList<String> cats met vier katten.
+zie opdracht1
+
+Opdracht 5 - Je verhuist naar de binnenstad en moet helaas afscheid nemen van je drie buitenkatten. Pas dit toe in je cats ArrayList.
+zie opdracht1
+
+Opdracht 6 - Als je de hoeveelheid items in een ArrayList wil weten, moet je de method size() gebruiken. Print cats.size() in de terminal.
+zie opdracht1
+
+Opdracht 7 - Wat is deze standaardmaat van een ArrayList en hoeveel groeit deze als hij eroverheen gaat?
+het default size is 10
+
+Opdracht 8 - Verander de begin-grootte van je ArrayList cats naar vier.
+zie opdracht1
