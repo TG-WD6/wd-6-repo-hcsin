@@ -1,0 +1,26 @@
+Nu gaan we een realistisch dierentuin-systeem nabouwen. Gebruik voor deze opdracht net als bij de CSS eindopdracht een aparte branch! Ook hierbij is een pull request met review van een peer verplicht.
+
+Het systeem van de dierentuin gaat het volgende bijhouden:
+
+Een lijst met alle dieren in de dierentuin >> Array
+Hoeveel dagen het systeem al draait
+De naam van elk dier
+De omgeving van elke diersoort.
+Hoeveel dagen geleden het dier voor het laatst gevoerd is?
+Per dag een nieuwe lijst met dieren die gevoerd moeten worden.
+Gebruik de volgende classes:
+
+Bird
+Vogels worden 1x per 2 dagen gevoerd.
+Reptile
+Reptielen worden 1x per week gevoerd.
+Cat
+Katten worden dagelijks gevoerd.
+Zoo - je Zoo class heeft de volgende methods
+add() - voegt een dier aan de dierentuin toe
+remove() - haalt een dier uit de dierentuin weg
+display() - toont alle dieren in de dierentuin
+newDay() - doet het volgende:
+Print in de terminal hoeveel dagen het systeem al draait
+Voegt een nieuwe Bird toe aan je Zoo.
+Print de dieren die vandaag gevoerd moeten worden

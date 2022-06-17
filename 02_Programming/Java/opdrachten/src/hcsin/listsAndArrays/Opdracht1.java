@@ -11,5 +11,6 @@ public class Opdracht1 {
         ArrayList<String> kittys = new ArrayList<>(4);
         kittys.add("Kwik");
         System.out.println(kittys.size());
+        System.out.println(cats.toString());
     }
 }
