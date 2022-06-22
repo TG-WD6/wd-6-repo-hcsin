@@ -18,6 +18,7 @@
   }
 }
 #nav_check {
+  width: 50%;
   position: absolute;
   opacity: 0;
   pointer-events: none;
@@ -74,6 +75,7 @@
     visibility: hidden;
     transition: all 0.2s ease-out;
     ul li {
+      width: 10px;
       padding-left: 10px;
       display: block;
       margin: 0;
@@ -99,6 +101,7 @@
     opacity: 1;
     visibility: visible;
     ul li {
+      width: 100%;
       left: 0px;
     }
   }

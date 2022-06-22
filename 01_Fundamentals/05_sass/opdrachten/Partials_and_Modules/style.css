@@ -1,5 +1,5 @@
 .button {
-  background-color: #ff8800;
+  background-color: rgb(255, 136, 0);
   color: black;
   width: 200px;
   height: 60px;
@@ -7,9 +7,7 @@
   font-size: large;
   font-weight: 800;
 }
-
 .button:hover {
-  background-color: #532c8d;
+  background-color: rgb(83, 44, 141);
   color: yellow;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

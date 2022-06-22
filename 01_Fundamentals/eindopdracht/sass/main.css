@@ -12,7 +12,7 @@
 .volg_ons i {
   margin-top: 5px;
   font-size: 25px;
-  color: #32036b;
+  color: rgb(50, 3, 107);
 }
 
 .footer_title {
@@ -25,13 +25,11 @@
     grid-template-columns: 1fr;
   }
 }
-
 @media (max-width: 900px) and (min-width: 480px) {
   .footer_container {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
 input {
   border: none;
   border-bottom: 1px solid #85888C;
@@ -46,7 +44,7 @@ button {
   margin: 5px;
   padding: 10px;
   font-size: 18px;
-  background-color: #32036b;
+  background-color: rgb(50, 3, 107);
   color: #f9f9f9;
   border: none;
 }
@@ -59,7 +57,6 @@ button {
   align-items: center;
   flex-direction: column;
 }
-
 .login_box h2 {
   margin-bottom: 15px;
 }
@@ -80,17 +77,14 @@ button {
   gap: 15px;
   grid-template-columns: 3fr 2fr;
 }
-
 .login_container .email,
 .login_container .password,
 .login_container .btn_submit {
   grid-column: span 2;
 }
-
 .login_container .remember_me input {
   width: 10px;
 }
-
 .login_container .remember_me .forget_pw {
   text-align: right;
 }
@@ -99,25 +93,24 @@ button {
   .login_container {
     width: 320px;
   }
+
   .login_pic {
     height: 170px;
     width: 170px;
   }
 }
-
 @media (max-width: 900px) and (min-width: 480px) {
   .login_pic {
     height: 200px;
     width: 200px;
   }
 }
-
 header {
   position: relative;
 }
 
 .container {
-  background-color: #32036b;
+  background-color: rgb(50, 3, 107);
   padding: 10px;
   position: relative;
 }
@@ -136,7 +129,6 @@ header {
 .logo {
   height: 55px;
 }
-
 .logo .nav_logo {
   height: 100%;
 }
@@ -146,13 +138,11 @@ header {
     height: 40px;
   }
 }
-
 .nav_menu ul li {
   display: inline-block;
   margin-left: 40px;
-  background-color: #32036b;
+  background-color: rgb(50, 3, 107);
 }
-
 .nav_menu ul li a {
   display: block;
   font-size: 16px;
@@ -161,12 +151,12 @@ header {
   text-transform: capitalize;
   transition: all 0.2s ease;
 }
-
 .nav_menu ul li a:hover, .nav_menu ul li a.active {
   color: #85888C;
 }
 
 #nav_check {
+  width: 50%;
   position: absolute;
   opacity: 0;
   pointer-events: none;
@@ -186,7 +176,6 @@ header {
   display: none;
   margin-right: 15px;
 }
-
 .nav_toggler span {
   display: block;
   height: 2px;
@@ -195,7 +184,6 @@ header {
   position: relative;
   transition: all 0.2s ease-out;
 }
-
 .nav_toggler span::before, .nav_toggler span::after {
   content: "";
   position: absolute;
@@ -205,12 +193,10 @@ header {
   left: 0;
   transition: all 0.2s ease-out;
 }
-
 .nav_toggler span::before {
   top: -6px;
   visibility: visible;
 }
-
 .nav_toggler span::after {
   top: 6px;
 }
@@ -219,8 +205,9 @@ header {
   .nav_toggler {
     display: flex;
   }
+
   .nav_menu {
-    background-color: #32036b;
+    background-color: rgb(50, 3, 107);
     position: absolute;
     left: 0;
     top: 10%;
@@ -230,6 +217,7 @@ header {
     transition: all 0.2s ease-out;
   }
   .nav_menu ul li {
+    width: 10px;
     padding-left: 10px;
     display: block;
     margin: 0;
@@ -249,14 +237,17 @@ header {
   .nav_menu ul li:nth-child(5) {
     transition-delay: 0.1s;
   }
+
   .header #nav_check:checked ~ .nav_menu {
     top: 100%;
     opacity: 1;
     visibility: visible;
   }
   .header #nav_check:checked ~ .nav_menu ul li {
+    width: 100%;
     left: 0px;
   }
+
   .header #nav_check:checked ~ .nav_toggler span {
     background-color: transparent;
   }
@@ -269,13 +260,13 @@ header {
     transform: rotate(-45deg);
   }
 }
-
 @media (max-width: 900px) and (min-width: 480px) {
   .nav_toggler {
     display: flex;
   }
+
   .nav_menu {
-    background-color: #32036b;
+    background-color: rgb(50, 3, 107);
     position: absolute;
     left: 0px;
     top: 50%;
@@ -303,6 +294,7 @@ header {
   .nav_menu ul li:nth-child(5) {
     transition-delay: 0.4s;
   }
+
   .header #nav_check:checked ~ .nav_menu {
     opacity: 1;
     top: 100%;
@@ -311,6 +303,7 @@ header {
   .header #nav_check:checked ~ .nav_menu ul li {
     left: 0px;
   }
+
   .header #nav_check:checked ~ .nav_toggler span {
     background-color: transparent;
   }
@@ -323,7 +316,6 @@ header {
     transform: rotate(-45deg);
   }
 }
-
 .product {
   margin: 25px;
   display: flex;
@@ -331,7 +323,6 @@ header {
   align-items: center;
   flex-direction: column;
 }
-
 .product .product_item {
   margin: 15px;
   display: grid;
@@ -340,58 +331,48 @@ header {
   padding-bottom: 15px;
   border-bottom: solid 1px #85888C;
 }
-
 .product .product_pic {
   border: solid 1px black;
   height: 165px;
   width: 165px;
 }
-
 .product .product_details {
   display: flex;
   justify-content: center;
   align-items: left;
   flex-direction: column;
 }
-
 .product .product_merk {
   font-size: 12px;
 }
-
 .product .product_title {
   font-weight: 700;
 }
-
 .product .product_discription {
   color: #85888C;
 }
-
 .product .product_order_details {
   display: flex;
   justify-content: center;
   align-items: left;
   flex-direction: column;
 }
-
 .product .product_price {
   color: red;
   font-weight: 700;
   font-size: 20px;
 }
-
 .product .product_price sup {
   position: relative;
   top: 2px;
   font-size: 12px;
 }
-
 .product .deliver_time {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 11px;
   color: green;
 }
-
 .product .product_add_card {
   display: flex;
   justify-content: center;
@@ -400,10 +381,9 @@ header {
   height: 30px;
   width: 70px;
   font-size: 20px;
-  background-color: #fbcb0b;
+  background-color: rgb(251, 203, 11);
   border-radius: 10%;
 }
-
 .product .product_add_card i {
   padding: 3px;
 }
@@ -437,7 +417,6 @@ header {
     font-size: 14px;
   }
 }
-
 @media (max-width: 900px) and (min-width: 480px) {
   .product .product_item {
     grid-template-columns: 168px 350px 80px;
@@ -446,7 +425,6 @@ header {
     font-size: 22px;
   }
 }
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -482,5 +460,4 @@ ul {
     background: url(../images/bg_home_mob.png);
     background-size: contain;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
