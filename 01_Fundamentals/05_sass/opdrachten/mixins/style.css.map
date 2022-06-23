@@ -1,12 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AEEA,AAAA,OAAO,CAAC;EACN,gBAAgB,EDDH,OAAgB;ECE7B,KAAK,EAAE,KAAK;EACZ,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,IAAI;EACnB,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,GAAG;CAKjB;;AAZD,AAQE,OARK,AAQJ,MAAM,CAAC;EACN,gBAAgB,EDLC,OAAgB;ECMjC,KAAK,EAAE,MAAM;CACd;;AFFH,AAAA,oBAAoB,CAAC;EAPnB,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,IAAW;EACnB,KAAK,EAAE,KAAK;EACZ,gBAAgB,ECPE,KAAK;EDQvB,UAAU,EAAE,mBAAmB;CAKhC;;AAED,AAAA,oBAAoB,AAAA,MAAM,CAAC;EAXzB,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,IAAW;EACnB,KAAK,EAAE,KAAK;EACZ,gBAAgB,ECHQ,OAAkB;EDI1C,UAAU,EAAE,mBAAmB;CAUhC",
-    "sources": [
-        "style.scss",
-        "assets/_color.scss",
-        "assets/_button.scss",
-        "assets/_color.scss"
-    ],
-    "names": [],
-    "file": "style.css"
-}
+{"version":3,"sourceRoot":"","sources":["assets/_button.scss","assets/_color.scss","style.scss"],"names":[],"mappings":"AAEA;EACE,kBCDa;EDEb;EACA;EACA;EACA;EACA;EACA;;AACA;EACE,kBCLiB;EDMjB;;;AEDJ;EAPE;EACA;EACA;EACA,kBDPkB;ECQlB;;;AAOF;EAXE;EACA;EACA;EACA,kBDHwB;ECIxB","file":"style.css"}

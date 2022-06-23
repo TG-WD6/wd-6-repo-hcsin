@@ -1,0 +1,69 @@
+@import "../abstracts/variables";
+input {
+  border: none;
+  border-bottom: 1px solid $theme_gray;
+  padding: 5px;
+  font-size: 18px;
+  width: 100%;
+  margin: 5px;
+}
+button {
+  width: 100%;
+  margin: 5px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: $theme_color;
+  color: $theme_white;
+  border: none;
+}
+
+.login_box {
+  padding: 15px;
+  width: 100%;
+  @include flex_direction(column, center);
+  h2{
+    margin-bottom: 15px;
+  }
+}
+.login_pic {
+  background-image: url(./../images/1652800324416.jpg);
+  background-position: center, center;
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+  background-size: cover;
+  border-radius: 50% 15px 50% 15px;
+}
+.login_container {
+  width: 400px;
+  @include grid_direction();
+  grid-template-columns: 3fr 2fr;
+  .email,
+  .password,
+  .btn_submit {
+    grid-column: span 2;
+  }
+  .remember_me {
+    input {
+      width: 10px;
+    }
+    .forget_pw {
+      text-align: right;
+    }
+  }
+}
+@media (max-width: $screen_s) {
+  .login_container {
+    width: 320px;
+  }
+  .login_pic {
+    height: 170px;
+    width: 170px;
+  }
+}
+@media (max-width: $screen_m) and (min-width: $screen_s){
+  .login_pic {
+    height: 200px;
+    width: 200px;
+  }
+}

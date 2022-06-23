@@ -1,0 +1,29 @@
+@import "../abstracts/variables";
+header {
+  position: relative;
+}
+.container {
+  background-color: $theme_color;
+  padding: 10px;
+  position: relative;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.nav_menu {
+  position: absolute;
+  right: 15px;
+}
+.logo {
+  height: 55px;
+  .nav_logo {
+    height: 100%;
+  }
+}
+@media (max-width: $screen_m) {
+  .logo {
+    height: 40px;
+  }
+}
