@@ -17,7 +17,7 @@ Opdracht 6 - Als je de hoeveelheid items in een ArrayList wil weten, moet je de 
 zie opdracht1
 
 Opdracht 7 - Wat is deze standaardmaat van een ArrayList en hoeveel groeit deze als hij eroverheen gaat?
-het default size is 10
+het default size is 10 en wordt verleng met 1.5 x wat de oude waarde.
 
 Opdracht 8 - Verander de begin-grootte van je ArrayList cats naar vier.
 zie opdracht1
