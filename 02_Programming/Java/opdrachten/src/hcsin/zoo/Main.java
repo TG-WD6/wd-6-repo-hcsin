@@ -6,6 +6,8 @@ public class Main {
     public static void main(String[] args) {
         String[] data;
         Scanner myInput = new Scanner(System.in);
+//        Animal something = new Animal();
+//        something.name = "";
 
         Zoo zoo = new Zoo();
         Bird vogeltje = new Bird("Jantje", "Bos");
@@ -17,6 +19,7 @@ public class Main {
         zoo.addAnimal(vogeltje);
         zoo.addAnimal(kat);
         zoo.addAnimal(slang);
+        zoo.addAnimal(something);
 
         System.out.println("Welkom in TG-Dierentuin.");
 
