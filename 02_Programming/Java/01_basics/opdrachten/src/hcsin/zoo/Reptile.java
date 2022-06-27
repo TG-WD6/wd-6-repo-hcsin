@@ -1,9 +1,9 @@
 package hcsin.zoo;
 
-public class Retile extends Animal{
-    public String catagory = "Retile";
+public class Reptile extends Animal{
+    public String catagory = "Reptile";
 
-    public Retile(String name, String environment) {
+    public Reptile(String name, String environment) {
         this.name = name;
         this.environment = environment;
     }
@@ -18,7 +18,7 @@ public class Retile extends Animal{
 
     @Override
     public String toString() {
-        return "Retile{" +
+        return "Reptile{" +
                 "catagory='" + catagory + '\'' +
                 ", name='" + name + '\'' +
                 ", feedingTime='" + feedingTime + '\'' +

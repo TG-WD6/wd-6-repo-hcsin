@@ -12,7 +12,7 @@ public class Main {
         vogeltje.frequentie = 2;
         Cat kat = new Cat("Mini", "Indoor");
         kat.frequentie = 1;
-        Retile slang = new Retile("Flash", "Bergen");
+        Reptile slang = new Reptile("Flash", "Bergen");
         slang.frequentie = 5;
         zoo.addAnimal(vogeltje);
         zoo.addAnimal(kat);
@@ -23,7 +23,7 @@ public class Main {
         while (true){
             System.out.println("-----------------------");
             System.out.println("Kies een nummer van de menu: ");
-            System.out.println("1.een vogel toevoegen \n2.een retile toevoegen\n3.een kat toevoegen\n4.lijst van dieren/deleten\n5.eten geven");
+            System.out.println("1.een vogel toevoegen \n2.een reptile toevoegen\n3.een kat toevoegen\n4.lijst van dieren/deleten\n5.eten geven");
             int choose = myInput.nextInt();
             switch (choose){
                 case 1:
@@ -34,9 +34,9 @@ public class Main {
                     break;
                 case 2:
                     data = information();
-                    Retile retile = new Retile(data[0], data[1]);
-                    retile.frequentie = 7;
-                    zoo.addAnimal(retile);
+                    Reptile reptile = new Reptile(data[0], data[1]);
+                    reptile.frequentie = 7;
+                    zoo.addAnimal(reptile);
                     break;
                 case 3:
                     data = information();
