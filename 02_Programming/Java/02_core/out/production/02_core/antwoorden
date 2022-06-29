@@ -1,0 +1,24 @@
+Opdracht 1 - Exceptional Theory
+1.Wat is de volgorde waarin deze blocks uitgevoerd worden?
+De blokken begin met try block, regel voor regel word uitgevoerd tot dat er een handel die niet gedaan kan worden, java definier wat voor soort exception is en vervolgens  de bijbehorende catch block uitvoeren, als er een final block zijn word het als laats altijd uitgevoerd
+2.Kan een enkele exception verschillende catch blocks laten uitvoeren?
+nee, alleen bij behorende exception van de block
+3.Maak onderstaande code na en leg uit wat er mis aan is:
+IOException is in de eerdere catch block al uitgevoerd, de laatse block is overbodig. het block kan verwijderd worden of volgorde aanpassen.
+
+Opdracht 2 - Exceptional Custom Practice
+Maak een BadTutorialException om te gebruiken bij latere opdrachten
+zie opdracht01.java
+
+Opdracht 3 - Exceptional Quizzing
+
+Voor deze opdracht gaan we de Scanner, BufferedFileWriter en FileWriter gebruiken. Als je deze niet kent, onderzoek ze dan nu eerst zelf.
+
+Maak een class Quiz. Deze class vraagt bij een start() of de main() method om een aantal spelers die mee gaan doen, en vervolgens voor elke speler om de naam. Hou de namen van de spelers bij in een List.
+Als er meer dan 5 spelers mee willen doen, moet je code een IllegalArgumentsException throwen!
+Zorg dat je de exceptions goed catched en de Scanner goed met close() afhandelt!
+
+Maak een Question class die de vraag en een lijst met 4 goede antwoorden bijhoudt.
+Zorg dat je Quiz class een multiple-choice vraag in de terminal kan printen. Vervolgens moet de Quiz om input vragen per speler, en aan het einde van de ronde melden wie er gelijk had.
+Maak een class Logger die de namen en antwoorden van de spelers van elke Quiz bij kan houden, en sla deze na het spelen van een Quiz hiermee op in een file.
+Vergeet opnieuw niet om je resources te closen en je exceptions te handlen!
