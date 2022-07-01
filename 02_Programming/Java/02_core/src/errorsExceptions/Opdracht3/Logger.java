@@ -1,4 +1,4 @@
-package Opdracht3;
+package errorsExceptions.Opdracht3;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

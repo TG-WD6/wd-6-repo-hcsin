@@ -1,4 +1,4 @@
-package Opdracht3;
+package errorsExceptions.Opdracht3;
 
 import java.util.ArrayList;
 import java.util.Scanner;

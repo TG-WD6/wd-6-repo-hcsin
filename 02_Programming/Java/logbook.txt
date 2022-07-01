@@ -1,0 +1,11 @@
+
+Speler 1 is Alex
+Speler 2 is Jens
+--------------------
+Vraag 1.
+Alex antwoord bij vraag 1: pushen
+Jens antwoord bij vraag 1: Getter handelen
+-------------------------
+Alex heeft een score van 1 punten
+Jens heeft een score van 0 punten
+-------------------------

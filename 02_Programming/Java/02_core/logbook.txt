@@ -1,7 +1,13 @@
-Speler 1 is a
+Speler 1 is Alex
+Speler 2 is Marijana
+Speler 3 is HiuChee
 --------------------
 Vraag 1.
-a antwoord bij vraag 1: Getter handelen
+Alex antwoord bij vraag 1: Getter handelen
+Marijana antwoord bij vraag 1: pushen
+HiuChee antwoord bij vraag 1: Setter handelen
 -------------------------
-a heeft een score van 0 punten
+Alex heeft een score van 0 punten
+Marijana heeft een score van 1 punten
+HiuChee heeft een score van 0 punten
 -------------------------

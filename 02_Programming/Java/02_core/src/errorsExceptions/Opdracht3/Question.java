@@ -1,4 +1,4 @@
-package Opdracht3;
+package errorsExceptions.Opdracht3;
 
 public class Question {
     int[] scores = new int[]{0, 0, 0, 0, 0};
