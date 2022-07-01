@@ -1,5 +1,12 @@
-Speler 1 is a
+Speler 1 is Alex
+Speler 2 is Jens
+Speler 3 is Marijana
 --------------------
-a antwoord bij vraag 1: Getter handelen
+Alex antwoord bij vraag 1: Getter handelen
+Jens antwoord bij vraag 1: Setter handelen
+Marijana antwoord bij vraag 1: pushen
 -------------------------
-a heeft een score van 0 punten
+Alex heeft een score van 0 punten
+Jens heeft een score van 0 punten
+Marijana heeft een score van 1 punten
+-------------------------

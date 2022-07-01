@@ -53,6 +53,8 @@ public class Main {
         }
 
 
+        myInput.close();
+        quiz.inputName.close();
         //Logbook aanmaken
         try {
             quiz.logger.createLogbook();
