@@ -1,8 +1,6 @@
 package Opdracht3;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.*;
 import java.util.Scanner;
 
 public class Main {
@@ -26,6 +24,7 @@ public class Main {
         String nextCapture = "-------------------------";
         System.out.println(nextCapture);
         System.out.println("Beantwoord de volgende vragen.");
+        quiz.logger.addIntoLogbook("Vraag 1.");
         question.QuestionOne();
         for (int i = 0; i < aantalspelers; i++) {
             name = quiz.spelerName.get(i);
@@ -64,7 +63,3 @@ public class Main {
         }
     }
 }
-
-//    Zorg dat je Quiz class een multiple-choice vraag in de terminal kan printen.
-//    Vervolgens moet de Quiz om input vragen per speler, en aan het einde van de ronde melden wie er gelijk had.
-//    Maak een class Logger die de namen en antwoorden van de spelers van elke Quiz bij kan houden, en sla deze na het spelen van een Quiz hiermee op in een file.

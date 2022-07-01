@@ -3,10 +3,8 @@ package Opdracht3;
 public class Question {
     int[] scores = new int[]{0, 0, 0, 0, 0};
     String answerStr = "";
-    Logger logger = new Logger();
 
     public void QuestionOne(){
-        logger.addIntoLogbook("Vraag 1.");
         System.out.println("Wat is de laatste ding wat Jens altijd wil doen bij afsluiten van de dag?");
         System.out.println("1. Getter handelen");
         System.out.println("2. Setter handelen");

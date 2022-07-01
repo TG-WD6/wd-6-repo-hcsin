@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fcdf1ca-bd10-4202-a04f-ccb9f8fbdc0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logbook.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logbook.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02_core/Opdracht3/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/02_core/Opdracht3/Logger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02_core/Opdracht3/Opdracht03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02_core/Opdracht3/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/02_core/Opdracht3/Question.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02_core/Opdracht3/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/02_core/Opdracht3/Quiz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht3/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht3/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht3/Opdracht03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht3/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht3/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht3/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht3/Quiz.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
