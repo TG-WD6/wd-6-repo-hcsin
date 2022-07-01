@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fcdf1ca-bd10-4202-a04f-ccb9f8fbdc0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/logbook.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Opdracht3/IllegalArgumentsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Opdracht3/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Opdracht3/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Opdracht3/Quiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht3/Opdracht03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht3/Opdracht03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logbook.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logbook.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02_core/Opdracht3/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/02_core/Opdracht3/Logger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02_core/Opdracht3/Opdracht03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02_core/Opdracht3/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/02_core/Opdracht3/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02_core/Opdracht3/Quiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/02_core/Opdracht3/Quiz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Opdracht3/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht3/Logger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Opdracht3/Opdracht03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Opdracht3/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht3/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Opdracht3/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Opdracht3/Quiz.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +43,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
-    <configuration name="Opdracht03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Opdracht3.Opdracht03" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Opdracht3.Main" />
       <module name="02_core" />
       <extension name="coverage">
         <pattern>
@@ -60,7 +64,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Opdracht03" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -85,6 +89,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

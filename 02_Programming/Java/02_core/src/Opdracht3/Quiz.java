@@ -19,9 +19,10 @@ public class Quiz {
                 String name = inputName.nextLine();
                 spelerName.add(name);
                 String inputLog = "Speler " + (i +1) + " is " + name;
-                logger.addIntoLogbook(inputLog, i);
+                logger.addIntoLogbook(inputLog);
             }
+            logger.addIntoLogbook("--------------------");
         }
-        inputName.close();
+//        inputName.close();
     }
 }
