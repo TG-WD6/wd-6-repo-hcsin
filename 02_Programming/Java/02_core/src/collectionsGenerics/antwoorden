@@ -1,0 +1,31 @@
+Opdracht 1 - Onderzoek de ArrayList en de LinkedList.
+Wat is het voordeel van een LinkedList gebruiken?
+- Voordeel is bij toevoegen van object minder zwaar is voor de system, teovoegen kan rechtstreek met de eerste stap.
+Wat is het voordeel van een ArrayList gebruiken?
+- voordeel is bij waarnemen van data's, het kan rechtstreek data er uit lezen.
+
+Opdracht 2 - Onderzoek de HashSet en de TreeSet
+Wat kan een HashSet wel en de TreeSet niet?
+- HashMap kan met key-value opslaan
+Wat heeft een TreeSet wel en een HashSet niet?
+- het sorteren van elementen
+
+Opdracht 3 - Generic Letters
+Je ziet bij Generics vaak dezelfde namen gebruikt worden; R, T, E, K en V. Zoek op waar deze letters voor staan.
+R -
+E − Element, and is mainly used by Java Collections framework.
+K − Key, and is mainly used to represent parameter type of key of a map.
+V − Value, and is mainly used to represent parameter type of value of a map.
+N − Number, and is mainly used to represent numbers.
+T − Type, and is mainly used to represent first generic type parameter.
+S − Type, and is mainly used to represent second generic type parameter.
+U − Type, and is mainly used to represent third generic type parameter.
+V − Type, and is mainly used to represent fourth generic type parameter.
+
+Opdracht 4 - Type Erasure
+Java is zeer backwards compatible, dus je code met Generics moet ook werken op oude versies van de JVM (die geen Generics kennen). Hiervoor maakt de Java Compiler gebruik van Type Erasure. Dit verandert generics en wildcards in een ander type class.
+
+Waarin verandert een Wildcard Type?
+
+Bonus Opdracht - Stack met 2 Queues
+Maak een eigen class Stack met methods add() en remove(). Gebruik 2 Queue classes.

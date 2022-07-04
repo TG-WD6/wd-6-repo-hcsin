@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fcdf1ca-bd10-4202-a04f-ccb9f8fbdc0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../logbook.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collectionsGenerics/antwoorden" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logbook.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02_core/BadTutorialException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02_core/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02_core/Opdracht01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02_core/Opdracht02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02_core/Opdracht3/IllegalArgumentsException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02_core/Opdracht3/Logger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02_core/Opdracht3/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02_core/Opdracht3/Question.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02_core/Opdracht3/Quiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02_core/antwoorden" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/errorsExceptions/Opdracht01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/errorsExceptions/Opdracht02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht3/IllegalArgumentsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/errorsExceptions/Opdracht3/IllegalArgumentsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht3/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/errorsExceptions/Opdracht3/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/errorsExceptions/Opdracht3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht3/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/errorsExceptions/Opdracht3/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Opdracht3/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/errorsExceptions/Opdracht3/Quiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/antwoorden" beforeDir="false" afterPath="$PROJECT_DIR$/src/errorsExceptions/antwoorden" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
