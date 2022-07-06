@@ -1,0 +1,23 @@
+Opdracht 1 - Enum values
+zie Opdracht1.java
+
+Opdracht 2 - What makes a good enumeration?
+Zijn dit een goede optie om in een enum te gebruiken?
+Waarom wel/niet?
+Is het een goed idee om je enum values final te maken?
+Waarom wel/niet?
+Opdracht 3 - Enum Examples
+Onderzoek de volgende Card en Deck classes. Er wordt ook een onbekend keyword gebruikt - assert. Je kan deze weglaten; het is voor deze opdracht niet nodig. Toch benieuwd? Hier alsnog een goede uitleg.
+Maak de classes na, en verbeter ze daarna door enums te gebruiken.
+
+Opdracht 4 - Enumerated Annotations
+Hieronder nog een voorbeeld van een custom annotation:
+
+De waarden van @Target en @Retention zijn beiden enums. Wat houden de verschillende waarden van RetentionPolicy in?
+
+Maak vervolgens een eigen custom annotation @Buggy. Geef deze een passende RetentionPolicy en alle mogelijke Target values (tegelijkertijd).
+Bugs hebben vaak een priority en severity. Voor deze waarden worden bepaalde getallen gebruikt. Zoek op welke dit zijn.
+
+Maak twee enums BugPriority en BugSeverity met gepaaste namen en final int values.
+Geef je custom annotatie @Buggy een int Priority en int Severity.
+Nu kan je je eigen annotation gebruiken om bugs in je code te noteren, en kunnen andere delen van code dit automatisch uitlezen!

@@ -18,11 +18,4 @@ Collection : "A collection represents a group of objects, known as its elements.
 Map : "An object that maps keys to values."
 
 Opdracht 4 - Random Person Generator
-Maak een class Person met de fields String name, int yearOfBirth, List<String> sports.
-
-Maak een lijst met 10 verschillende hobbies, en doe hetzelfde voor namen. Laat je Person constructor het volgende doen:
-
-Random een yearOfBirth van 18-65 en een
-Random gekozen aantal 1-5 hobbies, die ook random gekozen worden.
-Random naam
-Maak een lijst met 100 random personen. Stream deze lijst, filter op leeftijd boven de 50, laat ze allemaal hun naam in de console printen, en print vervolgens hun gecombineerde leeftijd.
+zie Person.java
