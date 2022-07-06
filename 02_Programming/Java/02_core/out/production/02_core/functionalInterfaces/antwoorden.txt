@@ -1,0 +1,28 @@
+Opdracht 1 - Functional Interface Methods
+Een Functional Interface kan je gebruiken door in je code de method aan te roepen. In het onderstaande voorbeeld zie je die van de Predicate interface - test()
+
+Wat zijn de namen van de methods van de Function, Consumer en Supplier interfaces?
+Functional Interface
+SAM (Single Abstract Method)
+
+Opdracht 2 - Lambda Rules
+Wanneer moet je een return statement, brackets en haakjes toevoegen bij een lambda? Wanneer mag je ze weglaten?
+return statement : Als de lambda-expressie een waarde moet retourneren, moet het codeblok een return-instructie hebben.
+brackets : Om complexere bewerkingen uit te voeren, kan een codeblok worden gebruikt met brackets. (om de body heen)
+haakjes : Als u meer dan één parameter wilt gebruiken, plaatst u deze tussen haakjes (om de argumenten heen)
+
+Opdracht 3 - Mapping and Collecting Streams
+Wat is het verschil tussen de Stream methods .map() en .collect()?
+Map is a more specific version of a Collection that has a Key -> Data structure. Collection is just the interface that has data structures for storing data in Java.
+Collection : "A collection represents a group of objects, known as its elements."
+Map : "An object that maps keys to values."
+
+Opdracht 4 - Random Person Generator
+Maak een class Person met de fields String name, int yearOfBirth, List<String> sports.
+
+Maak een lijst met 10 verschillende hobbies, en doe hetzelfde voor namen. Laat je Person constructor het volgende doen:
+
+Random een yearOfBirth van 18-65 en een
+Random gekozen aantal 1-5 hobbies, die ook random gekozen worden.
+Random naam
+Maak een lijst met 100 random personen. Stream deze lijst, filter op leeftijd boven de 50, laat ze allemaal hun naam in de console printen, en print vervolgens hun gecombineerde leeftijd.
