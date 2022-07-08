@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="2fcdf1ca-bd10-4202-a04f-ccb9f8fbdc0d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airport/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/airport/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airport/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/airport/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airport/src/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/airport/src/Airport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airport/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airport/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airport/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airport/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airport/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/airport/Airport.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/airport" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
