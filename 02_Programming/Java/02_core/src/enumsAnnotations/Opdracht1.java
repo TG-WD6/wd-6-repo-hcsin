@@ -14,11 +14,11 @@ public class Opdracht1 {
     }
 
     public static void main(String[] args) {
-        for (int i = 0; i < Main.Weekday.values().length; i++) {
+        for (int i = 0; i < Weekday.values().length; i++) {
             if(i < 5){
-                System.out.println("It's " + Main.Weekday.values()[i] + " Go to work.");
+                System.out.println("It's " + Weekday.values()[i] + " Go to work.");
             }else{
-                System.out.println("It's " + Main.Weekday.values()[i] + " Stay at home and play with your cat.");
+                System.out.println("It's " + Weekday.values()[i] + " Stay at home and play with your cat.");
             }
         }
     }
