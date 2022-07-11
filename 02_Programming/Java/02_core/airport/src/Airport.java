@@ -20,11 +20,13 @@ public class Airport {
                 String[] values = line.split(",");
                 System.out.println(values[0]);
             }
+            br.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
+
 //        Scanner scan = new Scanner(file);
 //        System.out.println(scan.nextLine());
     }
