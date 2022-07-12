@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fcdf1ca-bd10-4202-a04f-ccb9f8fbdc0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/airport/out/production/airport/Countrie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airport/out/production/airport/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airport/out/production/airport/Runway.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airport/resources/testAirports.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airport/resources/testCountries.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airport/src/Countrie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airport/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airport/src/Runway.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airport/out/production/airport/Airport.class" beforeDir="false" afterPath="$PROJECT_DIR$/airport/out/production/airport/Airport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airport/resources/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/airport/resources/testRunways.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airport/src/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/airport/src/Airport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionalInterfaces/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalInterfaces/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airport/out/production/airport/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/airport/out/production/airport/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airport/out/production/airport/Runway.class" beforeDir="false" afterPath="$PROJECT_DIR$/airport/out/production/airport/Runway.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airport/resources/testRunways.txt" beforeDir="false" afterPath="$PROJECT_DIR$/airport/resources/testRunways.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airport/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/airport/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airport/src/Runway.java" beforeDir="false" afterPath="$PROJECT_DIR$/airport/src/Runway.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
