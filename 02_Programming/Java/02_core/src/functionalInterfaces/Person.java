@@ -44,8 +44,13 @@ public class Person {
             personList.add(p1);
         }
         try{
-            personList.stream().filter(p -> p.yearOfBirth > 50).map(p -> p.name + " is " + p.yearOfBirth + " jaar oud").forEach(System.out ::println);
-            System.out.println(personList.stream().filter(p -> p.yearOfBirth > 50).count() + " mensen zijn ouder dan 50 jaar");
+            personList.stream()
+                    .filter(p -> p.yearOfBirth > 50)
+                    .map(p -> p.name + " is " + p.yearOfBirth + " jaar oud")
+                    .forEach(System.out ::println);
+            System.out.println(personList.stream()
+                    .filter(p -> p.yearOfBirth > 50)
+                    .count() + " mensen zijn ouder dan 50 jaar");
         }catch (Exception e){
             e.printStackTrace();
         }
