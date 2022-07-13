@@ -1,0 +1,43 @@
+"id","code","name","continent","wikipedia_link","keywords"
+302672,"AD","Andorra","EU","https://en.wikipedia.org/wiki/Andorra",
+302618,"AE","United Arab Emirates","AS","https://en.wikipedia.org/wiki/United_Arab_Emirates","UAE,مطارات في الإمارات العربية المتحدة"
+302619,"AF","Afghanistan","AS","https://en.wikipedia.org/wiki/Afghanistan",
+302722,"AG","Antigua and Barbuda","NA","https://en.wikipedia.org/wiki/Antigua_and_Barbuda",
+302723,"AI","Anguilla","NA","https://en.wikipedia.org/wiki/Anguilla",
+302673,"AL","Albania","EU","https://en.wikipedia.org/wiki/Albania",
+302620,"AM","Armenia","AS","https://en.wikipedia.org/wiki/Armenia",
+302556,"AO","Angola","AF","https://en.wikipedia.org/wiki/Angola",
+302615,"AQ","Antarctica","AN","https://en.wikipedia.org/wiki/Antarctica",
+302789,"AR","Argentina","SA","https://en.wikipedia.org/wiki/Argentina","Aeropuertos de Argentina"
+302763,"AS","American Samoa","OC","https://en.wikipedia.org/wiki/American_Samoa",
+302674,"AT","Austria","EU","https://en.wikipedia.org/wiki/Austria","Flughäfen in Österreich"
+302764,"AU","Australia","OC","https://en.wikipedia.org/wiki/Australia",
+302725,"AW","Aruba","NA","https://en.wikipedia.org/wiki/Aruba",
+302621,"AZ","Azerbaijan","AS","https://en.wikipedia.org/wiki/Azerbaijan",
+302675,"BA","Bosnia and Herzegovina","EU","https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina",
+302726,"BB","Barbados","NA","https://en.wikipedia.org/wiki/Barbados",
+302622,"BD","Bangladesh","AS","https://en.wikipedia.org/wiki/Bangladesh",
+302676,"BE","Belgium","EU","https://en.wikipedia.org/wiki/Belgium","Aéroports de Belgique,Luchthavens van België"
+302557,"BF","Burkina Faso","AF","https://en.wikipedia.org/wiki/Burkina_Faso",
+302677,"BG","Bulgaria","EU","https://en.wikipedia.org/wiki/Bulgaria",
+302623,"BH","Bahrain","AS","https://en.wikipedia.org/wiki/Bahrain","مطارات البحرين"
+302558,"BI","Burundi","AF","https://en.wikipedia.org/wiki/Burundi",
+302559,"BJ","Benin","AF","https://en.wikipedia.org/wiki/Benin",
+302760,"BL","Saint Barthélemy","NA","https://en.wikipedia.org/wiki/Saint_Barthélemy",
+302727,"BM","Bermuda","NA","https://en.wikipedia.org/wiki/Bermuda",
+302624,"BN","Brunei","AS","https://en.wikipedia.org/wiki/Brunei",
+302790,"BO","Bolivia","SA","https://en.wikipedia.org/wiki/Bolivia","Aeropuertos de Bolivia"
+302724,"BQ","Caribbean Netherlands","NA","https://en.wikipedia.org/wiki/Caribbean_Netherlands",
+302791,"BR","Brazil","SA","https://en.wikipedia.org/wiki/Brazil","Brasil, Brasilian"
+302728,"BS","Bahamas","NA","https://en.wikipedia.org/wiki/Bahamas",
+302625,"BT","Bhutan","AS","https://en.wikipedia.org/wiki/Bhutan",
+302785,"UM","United States Minor Outlying Islands","OC","https://en.wikipedia.org/wiki/United_States_Minor_Outlying_Islands",
+302755,"US","United States","NA","https://en.wikipedia.org/wiki/United_States","America"
+302801,"UY","Uruguay","SA","https://en.wikipedia.org/wiki/Uruguay","Aeropuertos de Uruguay"
+302669,"UZ","Uzbekistan","AS","https://en.wikipedia.org/wiki/Uzbekistan","Uzbek"
+302721,"VA","Vatican City","EU","https://en.wikipedia.org/wiki/Vatican_City","The Holy See"
+302756,"VC","Saint Vincent and the Grenadines","NA","https://en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines",
+302802,"VE","Venezuela","SA","https://en.wikipedia.org/wiki/Venezuela","Aeropuertos de Venezuela"
+302757,"VG","British Virgin Islands","NA","https://en.wikipedia.org/wiki/British_Virgin_Islands",
+302758,"VI","U.S. Virgin Islands","NA","https://en.wikipedia.org/wiki/U.S._Virgin_Islands",
+302670,"VN","Vietnam","AS","https://en.wikipedia.org/wiki/Vietnam","Các sân bay của Việt Nam"
