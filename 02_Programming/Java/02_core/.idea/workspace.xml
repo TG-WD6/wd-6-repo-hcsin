@@ -4,10 +4,8 @@
     <list default="true" id="2fcdf1ca-bd10-4202-a04f-ccb9f8fbdc0d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/airport/out/production/airport/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/airport/out/production/airport/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airport/out/production/airport/Runway.class" beforeDir="false" afterPath="$PROJECT_DIR$/airport/out/production/airport/Runway.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/airport/resources/testRunways.txt" beforeDir="false" afterPath="$PROJECT_DIR$/airport/resources/testRunways.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/airport/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/airport/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airport/src/Runway.java" beforeDir="false" afterPath="$PROJECT_DIR$/airport/src/Runway.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

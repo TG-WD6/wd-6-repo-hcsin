@@ -2,15 +2,14 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 
 public class Main {
     public static ArrayList<Countrie> countries = new ArrayList<Countrie>();
     public static ArrayList<Airport> airports = new ArrayList<Airport>();
     public static ArrayList<Runway> runways = new ArrayList<Runway>();
-
+    public static HashMap<String, Integer> topTen = new HashMap<>();
+    public static LinkedHashMap<String, Integer> reverseSortedTopten = new LinkedHashMap<>();
     public static void main(String[] args) {
 
         String pathLand = "./resources/countries.csv";
@@ -29,10 +28,56 @@ public class Main {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        for (int i = 0; i < runways.size(); i++) {
-            System.out.println(runways.get(i).toString());
-//            System.out.println(Arrays.deepToString(new Runway[]{runways.get(i)}));
+        calTopTen();
+        topTen.entrySet()
+                .stream()
+                .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+                .forEachOrdered(x -> reverseSortedTopten.put(x.getKey(), x.getValue()));
+
+        Set<String> keys = reverseSortedTopten.keySet();
+        int counter = 0;
+        for (String key : keys) {
+            if(counter == 10){
+                break;
+            }
+            System.out.println(key + " - " + reverseSortedTopten.get(key));
+            counter++;
         }
+//
+//        reverseSortedTopten.forEach((k, v) -> {
+//            System.out.format("key: %s, value: %d%n", k, v);
+//        });
+
+//        findCountryNameContent("zimb");//Bonus
+    }
+    public static Void calTopTen(){
+//        for (var x : airports) {
+//            System.out.println(x.getCountryCode());
+//        }
+        for (var y : airports) {
+            String x = y.getCountryCode();
+            if(topTen.containsKey(x)){
+                int w = topTen.get(x);
+                topTen.replace(x, w + 1);
+            }else {
+                topTen.put(x, 1);
+            }
+        }
+//        topTen.put("EU", 1);
+//        topTen.put("US", 5);
+//        topTen.put("NL", 1);
+//        String x = "EU";
+        return null;
+    }
+    public static String findCountryNameContent(String name){
+        name = name.toLowerCase();
+        for (int i = 0; i < countries.size(); i++) {
+            String x = countries.get(i).getName().toLowerCase();
+            if(x.contains(name)){
+                System.out.println(countries.get(i).getName());
+            }
+        }
+        return name;
     }
     public static String findAirportCountryName(String airportIdent){
         for (int i = 0; i < airports.size(); i++) {
@@ -56,7 +101,7 @@ public class Main {
         for (int i = 0; i < list.size(); i++) {
 //            System.out.println(Arrays.deepToString(list.get(i)));
             String[] a = list.get(i);
-        String h = findCountrieNameWithCode(findAirportCountryName(a[2]));
+            String h = findCountrieNameWithCode(findAirportCountryName(a[2]));
             runways.add(new Runway(list.get(i), h));
         }
     }
@@ -85,11 +130,3 @@ public class Main {
     }
 
 }
-//Runways for each airport given a country code or country name.
-//Top 10 countries with highest number of airports.
-
-//        Schrijf een programma dat de volgende informatie ophaalt, gegeven de aangeleverde bestanden:
-//
-//        Start- en landingsbanen voor elke luchthaven met een landcode of landnaam.
-//        Top 10 landen met het hoogste aantal luchthavens.
-//        Bonus: ondersteuning voor het ophalen van de informatie met een gedeeltelijke/vage landcode/naam als invoerparameter, b.v. het invoeren van 'zimb' resulteert in 'Zimbabwe'.
